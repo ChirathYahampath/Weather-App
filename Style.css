@@ -64,6 +64,35 @@ header {
     cursor: pointer;
 }
 
+.heders{
+    text-align: center;
+    color: #fff;
+}
 
-  
+#name{
+    color: #fff;
+}
+
+#region{
+    color: #fff;
+}
+#country{
+    color: #fff;
+}
+#time{
+    color: #fff;
+}
+#temp{
+    color: #fff;
+}
+#cloudy{
+    color: #fff;
+}
+
+#current-weather{
+   
+     margin: 10px;
+     padding: 40px;
+     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('Assets/sky-83132_960_720.jpg');
+   }
 
