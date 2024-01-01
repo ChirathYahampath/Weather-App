@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+</head>
+<body>
+
+     <!--------------------------------header-------------------------------->
+  <header>
+    <nav>
+      <div class="nav-links" id="navLnks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="#current-weather">CURRNENT</a></li>
+          <li><a href="#weather-forecast">FORECAST</a></li>
+         
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1 class="title">🌍<b>Weather</b> Forecast</h1>
+
+    <div class="user-interface">
+      <input type="text" id="searchtxt" placeholder="Enter location" />
+      <button id="searchbtn">Search</button>
+     
+    </div>
+
+  </header>
+  <!--------------------------------header END-------------------------------->
+
+
+    <div>
+        
+       <h5 id="name">Name</h5>
+       <h6 id="region">Region</h6>
+       <h3 id="country">Country</h3>
+       <h4 id="time">Date & Localtime</h4>
+       <h1 id="temp">Temp</h1>
+       <h2 id="cloudy">Cloudy</h2>
+       <img id="img" alt="" >
+      
+       
+    </div>
+
+    <link rel="stylesheet" href="Style.css">
+    <script src="app.js"></script>
+</body>
+</html>
